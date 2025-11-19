@@ -1,0 +1,11 @@
+
+class Solution:
+    def longest(self, arr):
+        # code here
+        temp=""
+        for ele in arr:
+            if len(ele)>len(temp):
+                temp=ele
+        return temp
+            
+            
