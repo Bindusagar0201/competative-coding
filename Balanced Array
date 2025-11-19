@@ -1,0 +1,15 @@
+#User function Template for python3
+
+
+class Solution:
+    # Function to find the minimum value required to balance the array.
+    def min_value_to_balance(self, arr):
+        # code here
+        n=len(arr)//2
+        s1,s2=0,0
+        for i in range(0,n):
+            s1+=arr[i]
+        for i in range(n,len(arr)):
+            s2+=arr[i]
+        return abs(s1-s2)
+        
