@@ -1,10 +1,9 @@
+#User function Template for python3
 class Solution:
-    def firstOccurence(self,txt,pat):
-        #code here
-        l=len(pat)
-        if pat in txt:
-            for i in range (0,len(txt)):
-                if txt[i:i+l]==pat:
-                    return i
-        else:
-            return -1
+	def arraySum(self, arr):
+   		# code here
+   		arraysum=0
+   		for i in arr:
+   		    arraysum+=i
+   		return arraysum
+
